@@ -5,8 +5,8 @@ class Program
     static void Main(string[] args)
     {
         Console.Write("Please insert your grade (%): ");
-        string percentage = Console.ReadLine();
-        int grade = int.Parse(percentage);
+        string response = Console.ReadLine();
+        int grade = int.Parse(response);
 
         string letter;
         string sign = "";
